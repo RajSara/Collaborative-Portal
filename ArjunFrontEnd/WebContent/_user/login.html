@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>log</title>
+					<link href="css/Sara.css" rel="stylesheet" type="text/css" />	
+
+</head>
+<body>
+{{message}}
+<div class="container">
+    <div class="inner">
+        <h1>Welcome</h1>
+                
+        <form action="">
+            <lagend>Login to your account</lagend><br>
+            
+            <label><span class="glyphicon glyphicon-user"></span></label>
+            <input type="text" placeholder='Username' ng-model="user.username" class="input" /><br>
+            
+            <label><span class="glyphicon glyphicon-lock"></span></label>
+            <input type="password" ng-model="user.password" placeholder="password" class="input" /><br>
+            
+            <button type="submit" ng-click="login()" value="Sign In" class="button">Sign in</button>
+            
+            <font color="white">Not Registered?</font> <a href="#register">Register here</a>
+        </form>
+        
+    </div>    
+</div>
+</body>
+</html>
+
+
+
+<!-- <html>
+<head>
+<title>Login</title>
+</head>
+<body>
+{{message}}
+<form>
+<table>
+<tr>
+<td>Enter Username</td>
+<td><input type="text" ng-model="user.username"></td>
+</tr>
+
+<tr>
+<td>Enter password</td>
+<td><input type="password" ng-model="user.password"></td>
+</tr>
+
+<tr><td><input type="submit" ng-click="login()" value="Sign In"></td><td></td></tr>
+
+</table>
+
+</form>
+<a href="#register">Sign up</a>
+</body>
+</html>
+ -->

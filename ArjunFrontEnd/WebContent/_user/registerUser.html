@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>reg</title>
+
+			<link href="css/Sara.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+{{message}}    
+</div>
+<div class="container">
+    <div class="inner">
+        <h1>Come and join with us</h1>
+          
+        <form action="">
+            <lagend>Register a new account with us</lagend><br>
+            
+            <label><span class="glyphicon glyphicon-user"></span></label>
+            <input type="text" placeholder='Username' ng-model="user.username" class="input" /><br>
+            
+            <label><span class="glyphicon glyphicon-envelope"></span></label>
+            <input type="email" placeholder='email' ng-model="user.email" class="input" /><br>
+            
+            <label><span class="glyphicon glyphicon-lock"></span></label>
+            <input type="password" placeholder="password" ng-model="user.password" class="input" /><br>
+            
+            <button type="submit" ng-click="registerUser()" class="button">JoinUS</button>
+            
+            <input type="radio" ng-model="user.role" value="Student"><font color="white">Student</font>
+            <input type="radio" ng-model="user.role" value="Alumini"><font color="white">Alumini</font>
+            <input type="radio" ng-model="user.role" value="Employee"><font color="white">Employee</font>
+        </form>
+        
+    </div>    
+</div>
+</body>
+</html>
+
+
+
+
+
+<!-- <html>
+<head>
+<title>RegisterUser</title>
+</head>
+<body>
+{{message}}
+<form>
+<table>
+<tr><td>Enter Username</td><td><input type="text" ng-model="user.username"></td></tr>
+<tr><td>Enter Password</td><td><input type="password" ng-model="user.password"></td></tr>
+<tr><td>Enter Email</td><td><input type="text" ng-model="user.email"></td></tr>
+<tr><td>Select Role</td><td><input type="radio" ng-model="user.role" value="Student">Student
+<input type="radio" ng-model="user.role" value="Alumini">Alumini
+<input type="radio" ng-model="user.role" value="Employee">Employee
+</td></tr>
+
+<tr><td><input type="submit" ng-click="registerUser()" ></td><td></td></tr>
+</table>
+</form>
+</body>
+</html>
+ -->
